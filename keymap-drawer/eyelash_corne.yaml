@@ -113,7 +113,7 @@ layers:
   - )
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '`', s: '~'}
-  - BSHL
+  - {t: \, s: '|'}
   - ^
   - {t: '=', s: +}
   - '?'
