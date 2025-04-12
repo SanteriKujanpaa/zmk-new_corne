@@ -40,9 +40,9 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: '-', s: _}
-  - {t: '''', s: '"'}
+  - .
+  - KP MINUS
+  - .
   - Fn
   - NUMBER
   - $$mdi:keyboard-space$$
