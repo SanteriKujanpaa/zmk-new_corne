@@ -30,6 +30,7 @@
 
 &mt {
     tapping-term-ms = <200>; // Tämä on siis hold-tap, että home-row-mod toimii oikein, muuten liian nopea. 
+    hold-trigger-on-release;
 };
 
 / {
