@@ -48,10 +48,9 @@
             flavor = "hold-preferred";
             require-prior-idle-ms = <50>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <1>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <23 24 25 27>; // Right-hand key indices (J, K, L, Ö)
-	    release-after-tap;
         };
 
         hmr: home_row_mod_right {
@@ -60,10 +59,9 @@
             flavor = "hold-preferred";
             require-prior-idle-ms = <50>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
+            quick-tap-ms = <1>;
             bindings = <&kp>, <&kp>;
-	    hold-trigger-key-positions = <14 15 16 17>; // Left-hand key index (A)
-	    release-after-tap;
+	    hold-trigger-key-positions = <14 15 16 17>; // Left-hand key index (A, S, D, F)
         };
     };
 
