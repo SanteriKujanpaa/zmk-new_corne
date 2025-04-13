@@ -131,7 +131,7 @@ layers:
   - {t: '`', s: '~'}
   - {t: '`', s: '~'}
   - '|'
-  - FI DOLLAR
+  - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 4 AND DOLLAR)))
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
