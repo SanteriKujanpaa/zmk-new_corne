@@ -50,7 +50,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <23 24 25 27>; // Right-hand key indices (J, K, L, Ö)
+            hold-trigger-key-positions = <23 24 25>; // Right-hand key indices (J, K, L, Ö)
         };
 
         hmr: home_row_mod_right {
@@ -61,7 +61,7 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
-	    hold-trigger-key-positions = <14 15 16 17>; // Left-hand key index (A, S, D, F)
+	    hold-trigger-key-positions = <15 16 17>; // Left-hand key index (A, S, D, F)
         };
     };
 
