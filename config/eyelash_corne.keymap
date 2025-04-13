@@ -62,7 +62,7 @@
             tapping-term-ms = <280>;
             quick-tap-ms = <175>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <14, 15, 16, 17>; // Left-hand key index (A)
+            hold-trigger-key-positions = <14 15 16 17>; // Left-hand key index (A)
             hold-trigger-on-release;
         };
     };
