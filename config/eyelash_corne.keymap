@@ -45,7 +45,7 @@
 	hml: home_row_mod_left {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
@@ -56,7 +56,7 @@
         hmr: home_row_mod_right {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
