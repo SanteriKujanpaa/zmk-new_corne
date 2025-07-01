@@ -47,7 +47,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
-            tapping-term-ms = <190>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <23 24 25 26>; // Right-hand key indices (J, K, L, Ö)
@@ -58,7 +58,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             require-prior-idle-ms = <0>;
-            tapping-term-ms = <190>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <0>;
             bindings = <&kp>, <&kp>;
 	    hold-trigger-key-positions = <14 15 16 17>; // Left-hand key index (A, S, D, F)
@@ -107,7 +107,7 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp FI_EXCL      &kp FI_DQT        &kp FI_HASH   &kp DLLR   &kp PRCNT                           &mmv MOVE_UP                     &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp FI_GRAVE  &kp FI_BSLH  &kp CARET     &kp FI_EQUAL  &kp FI_QMARK  &kp FI_PLUS            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp FI_LESS_THAN  &kp FI_LBKT  &kp FI_RBKT   &kp FI_GT  &kp FI_SQT  &kp FI_GRAVE
+&kp FI_GRAVE  &kp FI_BSLH  &kp FI_CARET     &kp FI_EQUAL  &kp FI_QMARK  &kp FI_AT            &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp FI_LESS_THAN  &kp FI_LBKT  &kp FI_RBKT   &kp FI_GT  &kp FI_SQT  &kp FI_GRAVE
 &trans  &kp FI_GRAVE   &kp FI_GRAVE  &kp FI_PIPE    &kp FI_DOLLAR      &kp FI_TILDE  &trans                    &mmv MOVE_DOWN                   &kp FI_PLUS  &kp FI_LBRC   &kp FI_RBRC   &kp FI_RBRC  &kp FI_STAR  &kp FI_TILDE
                                     &trans     &trans     &trans                                                            &trans    &trans     &trans
             >;
