@@ -196,3 +196,16 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [29, 30]
+  k: LGUI
+- p: [30, 31]
+  k: $$mdi:apple-keyboard-option$$
+- p: [31, 32]
+  k: $$mdi:apple-keyboard-option$$
+- p: [37, 38]
+  k: $$mdi:apple-keyboard-option$$
+- p: [38, 39]
+  k: $$mdi:apple-keyboard-option$$
+- p: [39, 40]
+  k: LGUI
