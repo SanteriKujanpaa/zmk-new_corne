@@ -32,7 +32,6 @@
     tapping-term-ms = <150>;
 };
 
-
 / {
     /* behaviors { */
     /*     td0: td0 { */
@@ -67,7 +66,7 @@
     /* }; */
 
     combos {
-	compatible = "zmk, combos";
+	compatible = "zmk,combos";
         // Z + X → GUI
         combo_zx_gui {
             timeout-ms = <50>;
