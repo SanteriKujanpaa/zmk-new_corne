@@ -67,44 +67,45 @@
     /* }; */
 
     combos {
+	compatible = "zmk, combos";
         // Z + X → GUI
         combo_zx_gui {
-            timeout-ms = <100>;
+            timeout-ms = <50>;
             key-positions = <29 30>;
             bindings = <&kp LGUI>;
         };
 
         // X + C → Alt
         combo_xc_alt {
-            timeout-ms = <100>;
+            timeout-ms = <50>;
             key-positions = <30 31>;
             bindings = <&kp LALT>;
         };
 
         // C + V → Shift
         combo_cv_alt {
-            timeout-ms = <100>;
+            timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&kp LALT>;
         };
 
         // M + , → Shift
         combo_m_alt {
-            timeout-ms = <100>;
+            timeout-ms = <50>;
             key-positions = <37 38>;
             bindings = <&kp LALT>;
         };
 
         // , + . → Alt
         combo_comma_dot_alt {
-            timeout-ms = <100>;
+            timeout-ms = <50>;
             key-positions = <38 39>;
             bindings = <&kp LALT>;
         };
 
         // . + - → GUI
         combo_dot_minus_gui {
-            timeout-ms = <100>;
+            timeout-ms = <50>;
             key-positions = <39 40>;
             bindings = <&kp LGUI>;
         };
