@@ -96,7 +96,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Fn
   - {t: '$$mdi:transfer$$', type: trans}
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,7 +142,7 @@ layers:
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))))
   - (RA(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE)))
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Fn
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
@@ -191,10 +191,10 @@ layers:
   - .
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '0', s: )}
+  - {t: '0', s: ), type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [29, 30]
@@ -203,9 +203,9 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [31, 32]
   k: $$mdi:apple-keyboard-shift$$
-- p: [31, 32]
+- p: [16, 17]
   k: $$mdi:apple-keyboard-control$$
-- p: [31, 32]
+- p: [23, 24]
   k: $$mdi:apple-keyboard-control$$
 - p: [37, 38]
   k: $$mdi:apple-keyboard-shift$$
