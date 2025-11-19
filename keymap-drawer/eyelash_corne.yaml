@@ -204,9 +204,9 @@ combos:
 - p: [31, 32]
   k: $$mdi:apple-keyboard-control$$
 - p: [16, 17]
-  k: LSIFT
+  k: $$mdi:apple-keyboard-shift$$
 - p: [23, 24]
-  k: RSIFT
+  k: $$mdi:apple-keyboard-shift$$
 - p: [37, 38]
   k: $$mdi:apple-keyboard-control$$
 - p: [38, 39]
