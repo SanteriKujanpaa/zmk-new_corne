@@ -92,14 +92,14 @@
         combo_df_shift {
             timeout-ms = <50>;
             key-positions = <16 17>;
-            bindings = <&kp LSIFT>;
+            bindings = <&kp LSHIFT>;
         };
 
         // J + K → Shift
         combo_jk_shift {
             timeout-ms = <50>;
             key-positions = <23 24>;
-            bindings = <&kp RSIFT>;
+            bindings = <&kp RSHIFT>;
         };
 
         // M + , → Control
