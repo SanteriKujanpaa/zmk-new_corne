@@ -32,16 +32,7 @@
     tapping-term-ms = <200>;
 };
 
-/ {
-    behaviors {
-	shift_mo1: shift_mo1 {
-	    compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo 1>, <&sk LSHFT>;
-            display-name = "Layer-Tap";
-        };
+/* / { */
     /*     td0: td0 { */
     /*         compatible = "zmk,behavior-tap-dance"; */
     /*         display-name = "Shift/Caps Lock Tap Dance"; */
@@ -71,7 +62,7 @@
 	/*            bindings = <&kp>, <&kp>; */
 	/*     hold-trigger-key-positions = <14 15 16 17>; // Left-hand key index (A, S, D, F) */
 	/*        }; */
-    };
+    /* }; */
 
     combos {
 	compatible = "zmk,combos";
@@ -155,7 +146,7 @@
 &kp TAB &kp Q &kp W &kp E &kp R &kp T                                                     &kp UP               &kp Y &kp U &kp I &kp O &kp P &kp ENTER
 &kp ESC &kp A &kp S &kp D &kp F &kp G                                            &kp LEFT &kp ENTER &kp RIGHT  &kp H &kp J &kp K &kp L &kp FI_O_UMLAUT &kp FI_A_UMLAUT
 &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp C_MUTE                                        &kp DOWN             &kp N &kp M &kp COMMA &kp PERIOD &kp FI_MINUS &kp FI_SQT
-                             &mo 3  &lt 1 LEFT_SHIFT  &kp SPACE                                                           &kp BSPC  &mo 2  &kp ENTER
+                             &mo 3  &sk LSHFT SK_HELD &mo 1  &kp SPACE                                                           &kp BSPC  &mo 2  &kp ENTER
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
